@@ -8,13 +8,13 @@ export default function Home() {
     <div className="flex h-full flex-col bg-zinc-900">
       <Header />
 
-      <main className="mx-auto flex w-full max-w-[1000px] flex-col items-center px-4">
+      <main className="mx-auto flex h-full w-full max-w-[1000px] flex-col items-center px-4">
         <div className="w-full">
           <CreateTaskForm />
 
           <TasksHeader />
 
-          <div className="my-4  h-px w-full bg-zinc-500/50" />
+          <div className="my-4 h-px w-full bg-zinc-500/50" />
 
           <TaskList />
         </div>

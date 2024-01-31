@@ -5,7 +5,8 @@
 html,
 body {
   height: 100%;
-  color: white
+  color: white;
+  background-color: #18181b;
 }
 
 @layer utilities {

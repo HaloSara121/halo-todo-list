@@ -11,9 +11,9 @@ export const TaskList = () => {
 
   if (totalTasks > 0)
     return (
-      <div className="scroll-none mb-2 max-h-[60vh] overflow-scroll">
+      <div className="scroll-none pb-8 lg:overflow-scroll">
         {uncheckedTasks.length > 0 ? (
-          <ul className=" space-y-2 ">
+          <ul className="space-y-4">
             {uncheckedTasks.tasks
               .filter((task) => task.isChecked === false)
               ?.map((task) => (
@@ -42,7 +42,7 @@ export const TaskList = () => {
             <div className="my-4  h-px w-full bg-zinc-500/50" />
             <span className="font-bold text-violet-500">Concluídas: </span>
 
-            <ul className="scroll-none mt-2 max-h-[60vh] space-y-2 overflow-scroll">
+            <ul className="mt-2 space-y-4">
               {checkedTasks.tasks?.map((task) => (
                 <TaskItem
                   key={task.id}
