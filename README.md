@@ -1,6 +1,6 @@
 # Nome do Projeto
 
-![Imagem do Projeto](https://imgur.com/a/x8ukfCN)
+![Imagem do Projeto]([https://imgur.com/a/x8ukfCN](https://i.imgur.com/ljlvQeR.gif))
 
 ## Descrição
 Uma breve descrição do projeto, destacando seus principais objetivos e funcionalidades.
