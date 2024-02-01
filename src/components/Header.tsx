@@ -6,7 +6,7 @@ export const Header = () => {
       <Logo color="#fff" borderColor="#fff" className="mr-2 h-10 w-10" />
       <span>Halo&nbsp;</span>
       <span className="bg-gradient-to-r from-sky-500 to-violet-500 bg-clip-text text-transparent">
-        to do
+        to-do
       </span>
     </header>
   )
