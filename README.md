@@ -1,39 +1,49 @@
-# Nome do Projeto
+# Halo to-do
 
-![Imagem do Projeto]([https://imgur.com/a/x8ukfCN](https://i.imgur.com/ljlvQeR.gif))
+![https://imgur.com/a/x8ukfCN](https://i.imgur.com/ljlvQeR.gif)
 
-## Descrição
-Uma breve descrição do projeto, destacando seus principais objetivos e funcionalidades.
+## Description
+This project is a simple website that helps users manage and organize their to-do tasks.
 
-## Tecnologias Utilizadas
-- Tecnologia 1
-  - Descreva brevemente o papel desta tecnologia no projeto e o que foi alcançado com ela.
-- Tecnologia 2
-  - Descreva brevemente o papel desta tecnologia no projeto e o que foi alcançado com ela.
-- ...
+## Technologies Used
+- Next.js 14
+  - I used the Next.js framework.
+- React
+  - React is the main library that I used to build the interface.
+- Tailwind CSS
+  - Tailwind CSS is my choice for the styling of this project.
 
-## Capturas de Tela
-Inclua capturas de tela ou gifs do projeto para dar uma visão visual rápida do que foi realizado.
+## How to execute the project
+- First, make sure you have Nodejs installed.
 
-## Como Executar
-Forneça instruções claras sobre como configurar e executar o projeto localmente.
+- Clone this repository:
+   ```bash
+   git clone https://github.com/HaloSara121/halo-todo-list.git
 
-## Funcionalidades
-Destaque as principais funcionalidades do projeto, mostrando o que o torna único e valioso.
+- Change to the directory:
+   ```bash
+   cd halo-todo-list
 
-## Contribuição
-Explique como os outros podem contribuir para o projeto, caso seja um projeto de código aberto.
+- Install the dependencies:
+   ```bash
+   npm install
+
+- Run the project:
+   ```bash
+   npm run dev   
+
+## Features
+In this project, you will be able to create new tasks, check and uncheck tasks, and delete tasks.
+
+## Contribution
+Contributions are welcome! Follow the steps below:
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b new-feature`
+3. Make your changes and commit: `git commit -am 'Add new feature'`
+4. Push to your fork: `git push origin new-feature`
+5. Open a pull request for review
 
 ## Autor
-Nome do autor ou da equipe de desenvolvimento.
+Vinicius Paes Berna
 
-## Licença
-Este projeto está sob a licença [Nome da Licença]. Veja o arquivo [LICENSE](link_para_o_arquivo) para mais detalhes.
-
-## Histórico de Versões
-- 1.0.0 (Data da Versão)
-  - Descrição das mudanças realizadas nesta versão.
-- ...
-
-## Agradecimentos
-Agradeça a qualquer pessoa ou recurso que tenha sido fundamental para o sucesso do projeto.
