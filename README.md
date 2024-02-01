@@ -6,7 +6,7 @@
 This project is a simple website that helps users manage and organize their to-do tasks. <br/>
 Take a look at the preview [here](https://halo-todo-list.vercel.app).
 
-## Technologies Used
+## Technologies
 - Next.js 14
   - I used the Next.js framework.
 - React
@@ -45,6 +45,6 @@ Contributions are welcome! Follow the steps below:
 4. Push to your fork: `git push origin new-feature`
 5. Open a pull request for review
 
-## Autor
+## Author
 Vinicius Paes Berna
 
