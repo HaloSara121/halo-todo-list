@@ -44,7 +44,7 @@ export const TasksProvider = ({ children }: TasksProviderProps) => {
   useEffect(() => {
     const storedTasks = localStorage.getItem('halo-todo')
     const storedTasksArray = storedTasks && JSON.parse(storedTasks)
-    if (storedTasksArray.length > 0) {
+    if (storedTasksArray?.length > 0) {
       setTasks(storedTasksArray)
     }
   }, [])
@@ -96,7 +96,7 @@ export const TasksProvider = ({ children }: TasksProviderProps) => {
     )
 
     return {
-      length: filteredCheckedTasks.length,
+      length: filteredCheckedTasks?.length,
       tasks: filteredCheckedTasks,
     }
   }, [tasks])
@@ -107,13 +107,13 @@ export const TasksProvider = ({ children }: TasksProviderProps) => {
     )
 
     return {
-      length: filteredCheckedTasks.length,
+      length: filteredCheckedTasks?.length,
       tasks: filteredCheckedTasks,
     }
   }, [tasks])
 
   const totalTasks = useMemo(() => {
-    return tasks.length
+    return tasks?.length
   }, [tasks])
 
   return (

@@ -12,7 +12,7 @@ export const TaskList = () => {
   if (totalTasks > 0)
     return (
       <div className="scroll-none pb-8 lg:overflow-scroll">
-        {uncheckedTasks.length > 0 ? (
+        {uncheckedTasks?.length > 0 ? (
           <ul className="space-y-4">
             {uncheckedTasks.tasks
               .filter((task) => task.isChecked === false)
@@ -37,7 +37,7 @@ export const TaskList = () => {
           </div>
         )}
 
-        {checkedTasks.length > 0 && (
+        {checkedTasks?.length > 0 && (
           <>
             <div className="my-4  h-px w-full bg-zinc-500/50" />
             <span className="font-bold text-violet-500">Concluídas: </span>
