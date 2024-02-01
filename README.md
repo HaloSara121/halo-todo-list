@@ -3,7 +3,8 @@
 ![https://imgur.com/a/x8ukfCN](https://i.imgur.com/ljlvQeR.gif)
 
 ## Description
-This project is a simple website that helps users manage and organize their to-do tasks.
+This project is a simple website that helps users manage and organize their to-do tasks. <br/>
+Take a look at the preview [here](https://halo-todo-list.vercel.app).
 
 ## Technologies Used
 - Next.js 14
